@@ -1,0 +1,35 @@
+.posts__area_control {
+    position: relative;
+}
+
+.posts__area_error {
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 30%;
+    right: 12px;
+    z-index: 1;
+
+    font-size: 12px;
+    color: #e35c5c;
+
+    opacity: 0;
+
+    transition: opacity .3s linear;
+
+    & i {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+}
+
+.posts__area_control.posts__textarea_error {
+    & input, & textarea {
+        border: 2px solid #e35c5c;
+    }
+
+    & .posts__area_error {
+        opacity: 1;
+    }
+}

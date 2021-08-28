@@ -1,0 +1,32 @@
+.info__status {
+    height: 30px;
+    border-radius: 2px;
+
+    cursor: pointer;
+
+    transition: background-color .3s linear;
+
+    &:hover {
+        background-color: #9699ac;
+    }
+}
+
+.status__text {
+    padding: 5px 5px 5px 10px;
+    color: #d4d4d4;
+}
+
+.status__set_block {
+    height: 30px;
+}
+
+.status__input {
+    height: 30px;
+    width: 100%;
+
+    font-size: 18px;
+
+    border-radius: 2px;
+
+    padding: 5px 5px 5px 12px;
+}

@@ -1,3 +1,15 @@
+## React Social-02
+
+React social-02
+
+### Technologes Stack
+
+-   HTML5
+-   CSS3, SCSS
+-   JavaScript, TypeScript, React (axios, formik, react-router-dom)
+-   Redux (react-redux, redux-thunk, redux-form, reselect)
+-   Jest
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

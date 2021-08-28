@@ -1,0 +1,11 @@
+.dialogs__item {
+    margin-bottom: 10px;
+
+    & a {
+        transition: color .3s linear;
+
+        &.active {
+            color: #313247;
+        }
+    }
+}

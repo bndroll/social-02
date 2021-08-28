@@ -1,0 +1,37 @@
+.content__login {
+    width: 600px;
+    height: 470px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+
+    background-color: #252636;
+    border-radius: 50px;
+    box-shadow: 20px 20px 41px #1f202d, -20px -20px 41px #2a2b3d;
+
+    transform: translate(-50%, -50%);
+}
+
+.login__container {
+    margin: 10px 40px;
+}
+
+.login__message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.login__text {
+    font-size: 20px;
+
+    margin-right: 20px;
+}
+
+.login__picture {
+    font-size: 60px;
+}

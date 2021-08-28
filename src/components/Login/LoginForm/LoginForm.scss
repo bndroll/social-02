@@ -1,0 +1,113 @@
+.login__form_container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas: 'login pass' 'form-captcha-img form-captcha' 'remember submit';
+
+    align-items: center;
+}
+
+.form__login {
+    grid-area: login;
+}
+
+.login__input {
+    height: 40px;
+    width: 100%;
+
+    padding: 5px 10px;
+
+    font-size: 16px;
+}
+
+.form__captcha_img {
+    grid-area: form-captcha-img;
+}
+
+.form__captcha {
+    grid-area: form-captcha;
+}
+
+.captcha__input {
+    height: 40px;
+    width: 100%;
+
+    padding: 5px 10px;
+
+    font-size: 16px;
+}
+
+.form__password {
+    grid-area: pass;
+}
+
+.password__input {
+    height: 40px;
+    width: 100%;
+
+    padding: 5px 10px;
+
+    font-size: 16px;
+}
+
+.form__email {
+    grid-area: email;
+}
+
+.email__input {
+    height: 40px;
+    width: 100%;
+
+    padding: 5px 10px;
+
+    font-size: 16px;
+}
+
+.form__remember {
+    grid-area: remember;
+
+    display: flex;
+    align-items: center;
+}
+
+.remember__check {
+    width: 20px;
+    height: 20px;
+
+    margin-right: 10px;
+}
+
+.form__submit {
+    grid-area: submit;
+}
+
+.submit__form {
+    width: 100%;
+    height: 40px;
+
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+
+    background-color: #7a7e97;
+    border-radius: 5px;
+
+    transition: background-color .3s linear;
+
+    &:hover {
+        background-color: #5d7461;
+    }
+}
+
+.form__error_block {
+    grid-area: email;
+    height: 40px;
+    padding: 5px 10px;
+
+    display: flex;
+    align-items: center;
+
+    border-bottom: 1px solid #e77171;
+    color: #e77171;
+}

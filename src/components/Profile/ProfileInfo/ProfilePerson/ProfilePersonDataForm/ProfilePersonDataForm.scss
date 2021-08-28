@@ -1,0 +1,76 @@
+.input__info_container_profile {
+    display: inline-block;
+}
+
+.input__profile_edit {
+    padding: 5px;
+
+    height: 22px;
+    width: 450px;
+
+    font-size: 16px;
+    color: #ffffff;
+
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+.input__profile_edit_contacts {
+    padding: 5px;
+
+    height: 22px;
+    width: 450px;
+
+    font-size: 16px;
+}
+
+.input__looking_for_job_profile {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    left: 0;
+    top: -17px;
+    z-index: 1;
+
+    margin-left: 10px;
+}
+
+.input__about_me_profile {
+    padding: 5px;
+    margin: 20px 0 0 10px;
+
+    height: 60px;
+    width: 250px;
+
+    font-size: 16px;
+}
+
+.contacts__info_profile_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 5px;
+}
+
+.contacts__names {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.exit__edit_form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.exit__edit_form_btn i {
+    margin-left: 10px;
+}
+
+.exit__edit_form_error {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

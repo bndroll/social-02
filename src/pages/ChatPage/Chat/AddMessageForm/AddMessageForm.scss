@@ -1,0 +1,52 @@
+.chat__add-message__form {
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px;
+  border-top: 2px solid rgba(37, 38, 54, 0.45);
+}
+
+.chat__add-message__textarea_container {
+  height: 100%;
+  width: 83%;
+}
+
+.chat__add-message__textarea {
+  height: 100%;
+  width: 100%;
+
+  border-radius: 5px;
+
+  padding: 10px 15px;
+
+  font-size: 16px;
+}
+
+.chat__add-message__button_container {
+  height: 100%;
+  width: 15%;
+}
+
+.chat__add-message__button {
+  height: 100%;
+  width: 100%;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #252636;
+
+  transition: color .3s linear, background-color .3s linear;
+
+  &:hover {
+    background-color: #252636;
+    color: #fff;
+  }
+}

@@ -1,0 +1,33 @@
+.friends__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 12px;
+
+    margin: 5px;
+
+    background-color: #252636;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: border-radius .3s linear, background-color .3s linear;
+
+    &:hover {
+        border-radius: 0;
+
+        background-color: #313247;
+    }
+}
+
+.friend__img {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 5px;
+
+    margin-bottom: 5px;
+}
+

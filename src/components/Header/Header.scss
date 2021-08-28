@@ -1,0 +1,110 @@
+.header {
+    padding: 5px 20px;
+    grid-area: header;
+
+    background-color: #7a7e97;
+}
+
+.header__inner {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #7a7e97;
+    font-size: 30px;
+
+    background-color: #fff;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: color .3s linear, background-color .3s linear;
+
+    &:hover {
+        color: #fff;
+        background-color: #252636;
+    }
+}
+
+.header__profile {
+    height: 100%;
+    padding: 0 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: background-color .3s linear;
+}
+
+.profile__name {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.profile__logo {
+    font-size: 30px;
+    margin-right: 25px;
+}
+
+.header__login {
+    color: #ffffff;
+    background-color: #252636;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: color .3s linear, background-color .3s linear;
+
+    &:hover {
+        background-color: #fff;
+
+        & a {
+            color: #252636;
+        }
+    }
+}
+
+.header__logout {
+    padding: 10px 22px;
+    background-color: #fff;
+    border-radius: 5px;
+
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+    transition: color .3s linear, background-color .3s linear;
+
+    &:hover {
+        color: #fff;
+        background-color: #252636;
+    }
+}
+
+.header__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    padding: 10px 25px;
+}

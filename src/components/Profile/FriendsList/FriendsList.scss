@@ -1,0 +1,11 @@
+.profile__friends {
+    width: 27.8%;
+    display: grid;
+    grid-template: 100px 100px / 100px 100px 100px;
+    justify-content: space-around;
+
+    background-color: #7a7e97;
+
+    margin-right: 20px;
+    padding: 10px;
+}

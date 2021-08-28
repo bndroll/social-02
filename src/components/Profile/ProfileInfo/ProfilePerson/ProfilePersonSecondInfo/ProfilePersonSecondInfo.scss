@@ -1,0 +1,28 @@
+.info__contact {
+    margin-left: 40px;
+}
+
+.some__info {
+    margin-bottom: 5px;
+}
+
+.contact__link:hover {
+    text-decoration: underline;
+}
+
+.info__second_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__second_button {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+
+    font-size: 15px;
+    color: #ffffff;
+
+    background-color: rgba(152, 156, 181, .4);
+    border-radius: 5px;
+}
